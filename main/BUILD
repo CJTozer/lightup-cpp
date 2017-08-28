@@ -1,4 +1,7 @@
 cc_binary(
     name = "lightup",
-    srcs = ["main.cc"],
+    srcs = glob(['*.cc']),
+    deps = [
+        "//git2:lightup-git",
+    ],
 )
