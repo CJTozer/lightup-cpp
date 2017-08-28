@@ -5,5 +5,5 @@
 With `bazel`:
 
 ```bash
-bazel build //src:lightup
+bazel build //main:lightup
 ```
